@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+header {
+  text-align: center;
+  font-size: larger;
+}
+
+main {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: left;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+ main {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 30px;
+  font-family: "Lexend Deca";
+}
+
+.firstcontainer {
+  background-color: hsl(37, 77%, 52%);
+  color: white;
+  padding: 2em;
+  height: 50%;
+  width: 50%;
+  border-radius: 7px 0 0 7px;
+}
+
+.btn1 {
+  width: 65%;
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 95%) 1;
+  color: #e28525;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+}
+
+.btn1:hover {
+  transform-box: 0.1s;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.secondcontainer {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  height: 50%;
+  width: 50%;
+  padding: 2em;
+}
+
+.btn2 {
+  width: 65%;
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 95%);
+  color: #016972;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+}
+
+.btn2:hover {
+  transform-box: 0.1s;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.thirdcontainer {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  height: 50%;
+  width: 50%;
+  padding: 2em;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.btn3 {
+  width: 65%;
+  margin-top: 40px;
+  background-color: hsl(0, 0%, 95%);
+  color: #00403f;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+}
+
+.btn3:hover {
+  transform-box: 0.1s;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
